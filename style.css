@@ -1,0 +1,66 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: gray;
+    height: 95vh;
+}
+.container{
+    background-color: rgba(35, 51, 104, 0.829);
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 5%;
+}
+/* .disfat{
+    padding-right: 12px;
+} */
+.display
+{
+    padding-right: 10px;
+    width: 92%;
+    height: 50px;
+    background-color: rgb(35, 51, 104);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    text-align: right;
+    margin-right: 23px;
+
+}
+.but{
+    margin-top: 5px;
+    width: 45px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 0px 4px black;
+    border: none;
+    background-color: rgba(35, 51, 104, 0.808);
+}
+.but:hover{
+    background-color: rgb(35, 51, 104);
+}
+.equ{
+    width: 95px;
+    background-color:  rgba(0, 128, 0, 0.568);
+}
+
+.equ:hover{
+    width: 95px;
+    background-color:rgb(0, 128, 0);
+}
+.del{
+    background-color: rgba(255, 0, 0, 0.37) ;
+}
+.del:hover{
+    background-color:rgba(255, 0, 0, 0.616);
+}
+.alldel{
+    background-color:  rgba(0, 0, 0, 0.575);
+}
+
+.alldel:hover{
+    background-color:black;
+}
